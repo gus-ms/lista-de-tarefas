@@ -1,0 +1,58 @@
+.tarefas {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.tarefas li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.2s;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.tarefas li input[type="checkbox"] {
+  accent-color: green;
+  cursor: pointer;
+}
+
+.tarefas li.checked {
+  background-color: lightgreen;
+}
+
+.tarefas li.checked:hover {
+  background: rgb(128, 212, 128);
+}
+
+.tarefas li:hover {
+  background: #ccccccc0;
+}
+
+.tarefas li .edit {
+  margin-right: 15px;
+  color: #3fc0dc;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.tarefas li .edit:hover,
+.tarefas li .delete:hover {
+  transform: scale(1.2) translateY(-3px);
+}
+
+.tarefas li .delete {
+  margin-right: 15px;
+  color: #f04c64;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+
+}
+
+.tarefas li span {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gus-ms/lista-de-tarefas/static/css/main.56ad3dba.css",
+    "main.js": "/gus-ms/lista-de-tarefas/static/js/main.3d9add38.js",
+    "index.html": "/gus-ms/lista-de-tarefas/index.html",
+    "main.56ad3dba.css.map": "/gus-ms/lista-de-tarefas/static/css/main.56ad3dba.css.map",
+    "main.3d9add38.js.map": "/gus-ms/lista-de-tarefas/static/js/main.3d9add38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56ad3dba.css",
+    "static/js/main.3d9add38.js"
+  ]
+}

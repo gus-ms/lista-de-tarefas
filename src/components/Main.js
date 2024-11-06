@@ -72,7 +72,7 @@ export default class Main extends Component {
     })
   };
 
-  handleEdit = (index) => {
+  handleEdit = (e, index) => {
     const {tarefas} = this.state;
 
     this.setState({
@@ -82,7 +82,7 @@ export default class Main extends Component {
     })
   }
 
-  handleDelete = (index) => {
+  handleDelete = (e, index) => {
     const { tarefas } = this.state;
     const novasTarefas = [...tarefas];
     novasTarefas.splice(index, 1);
@@ -93,7 +93,7 @@ export default class Main extends Component {
     });
   }
 
-  
+
 
   render() {
     const  { novaTarefa, tarefas, alerta } = this.state;

@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import {FaEdit, FaWindowClose} from 'react-icons/fa';
@@ -19,7 +20,7 @@ export default function Tarefas({tarefas , handleEdit, handleDelete}) {
         <li key={tarefa} className={checkedItems[index] ? 'checked' : ''}>
           <input type="checkbox"
           checked={checkedItems[index]}
-          onChange={() => handleCheckboxChange(index)} 
+          onChange={() => handleCheckboxChange(index)}
           />
           {tarefa}
           <span>
